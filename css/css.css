@@ -49,7 +49,7 @@ form {
     background: -o-linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* Standard syntax */
-    color: #000000;
+    color: white;
     border: 3px solid #555;
     width: 50%;
     font-family: 'Fruktur', cursive;
