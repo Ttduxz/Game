@@ -1,0 +1,167 @@
+p {
+    color:white;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Bangers', cursive;
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
+}
+
+form {
+    
+    font-size: 40px;
+    color: white;
+    font-family: 'Bangers', cursive;
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
+}
+
+#correctanswer {
+    text-align: center;
+    margin-left: 0%;
+    width: 100%;
+    background-color: red;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
+}
+
+#incorrectanswer {
+    display: none;
+    font-family: 'Dancing Script', cursive;  
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
+}
+
+#end {
+    display: none;
+    text-align: center;
+    
+}
+
+#buttonn {
+    display: inline-block;
+}
+
+
+.alert {
+    display: none;
+    margin-top: 7px;
+    padding: 5px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( rgb(243, 115, 40), rgb(235, 69, 69), red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, rgb(235, 69, 69), rgb(243, 115, 40)); /* Standard syntax */
+    color: #000000;
+    border: 3px solid #555;
+    width: 50%;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: none;
+  }
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.closebtn:hover {
+    color: white;
+}
+
+h1{
+    
+    margin-top: 5%;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000
+}
+
+html,
+body {
+  height: 100%;
+}
+.layout-boxed html,
+.layout-boxed body {
+  height: 100%;
+}
+body {
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url(https://media.giphy.com/media/xTiTnI1mdyxsFKTFjW/giphy.gif);
+  margin: 0px;
+}
+/* Layout */
+.wrapper {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.wrapper:before,
+.wrapper:after {
+  content: " ";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+.layout-boxed .wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  min-height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.layout-boxed {
+  background-color: #f9fafc;
+}
+
+.content {
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+input[type=text] {
+  width: 10%;
+  padding: 8px;
+  margin-left: 15px;
+}
+
+input[type=button] {
+  width: 3%;
+  background-color: #4CAF50;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px;
+}
+
+#highlow{
+  font-family: 'Dancing Script', cursive;  
+  text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000;
+  margin: 0px;
+  
+}
+
+button{
+  font-size: 30px;
+  width: 30%;
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px;
+  margin: 0px;
+  font-family: 'Dancing Script', cursive;  
+  text-shadow: 0 0 0.2em white,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000;
+  color: aliceblue;
+}

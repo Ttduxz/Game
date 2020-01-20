@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Today You Lucky ?</title>
+    <link rel="stylesheet" href="./css/css.css">
+    
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="content">
+            <div>
+                <h1 align="center" class="t1">Number Guessing game</h>
+                <p align="center">The system will randomly 1-100,You can answer 10 times. <br>
+                                  If your answer is too high, We'll say " Too High ". <br>
+                                  In the Other hand, If your answer is too low, We'll say " Too Low "</p>
+            </div>
+    
+            <div align="center">
+                <form action="#">     
+                    Enter a answer -> 
+                   <input type="text" id="number">
+                   <input id="buttonn" type="button" onclick="getInput(event)" value="Send">
+                   <div id="a" class="alert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    <strong>Danger!</strong> Please Input number .
+                  </div>
+                </form>
+            </div>
+    
+         
+                <p id="incorrectanswer" align="center"> Previous answer:</p>
+                <div>
+                    <p id="correctanswer" align="center"></p>
+                </div>
+                <div align="center">
+                    <p id="highlow" ></p>
+                    <p id="winlose"></p> 
+                </div>
+            
+    
+            <div id="end" align="center">
+                <button type="button" onclick="repage()">Start new game</button>
+            </div>
+    
+        </div>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+    </style>
+    <script src="./js/js.js"></script>
+</body> 
+</html>
