@@ -2,15 +2,15 @@ p {
     color:white;
     font-size: 40px;
     margin-top: 50px;
-    font-family: 'Bangers', cursive;
-    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
+    font-family: 'Fruktur', cursive;
+    text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000
 }
 
 form {
     
     font-size: 40px;
     color: white;
-    font-family: 'Bangers', cursive;
+    font-family: 'Fruktur', cursive;
     text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
 }
 
@@ -19,13 +19,13 @@ form {
     margin-left: 0%;
     width: 100%;
     background-color: red;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Fruktur', cursive;
     text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
 }
 
 #incorrectanswer {
     display: none;
-    font-family: 'Dancing Script', cursive;  
+    font-family: 'Rakkas', cursive;
     text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000
 }
 
@@ -132,21 +132,27 @@ body {
 
 input[type=text] {
   width: 10%;
-  padding: 8px;
+  padding: 10px;
   margin-left: 15px;
+  font-size: 20px;
+  font-family: 'Rakkas', cursive;
+
 }
 
 input[type=button] {
-  width: 3%;
+  width: 4%;
   background-color: #4CAF50;
   border: none;
   text-decoration: none;
   cursor: pointer;
-  padding: 6px;
+  padding:6px;
+  font-family: 'Fruktur', cursive;
+  font-size: 20px;
+  
 }
 
 #highlow{
-  font-family: 'Dancing Script', cursive;  
+  font-family: 'Fruktur', cursive;      
   text-shadow: 0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000,0 0 0.2em #000000;
   margin: 0px;
   
